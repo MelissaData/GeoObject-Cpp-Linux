@@ -8,31 +8,31 @@ Please feel free to copy or embed this code to your own project. Happy coding!
 For the latest Melissa GeoCoder Object release notes, please visit: https://releasenotes.melissa.com/on-premise-api/geocoder-object/
 
 The console will ask the user for:
-- Zip Code
+
+- Zip 
 
 And return 
 
 For US:
 
-- PlaceName
+- Place Name
 - County
-- CountySubdivisionName
-- TimeZone
+- County Subdivision Name
+- Time Zone
 - Latitude
 - Longitude
-- ResultCodes
+- Result Codes
 
 For Canada:
 
-- TimeZone
+- Time Zone
 - Latitude
 - Longitude
 
 ## Tested Environments
-- Linux 64-bit g++ 9.4.0
-- Ubuntu 20.04.05 LTS
+- Linux 64-bit g++ 9.4.0, Ubuntu 20.04.05 LTS
 - GNU Make 4.2.1
-- Melissa data files for 2023-06
+- Melissa data files for 2023-07
 
 ## Required File(s) and Programs
 
@@ -61,6 +61,7 @@ To check your make version:
 `make --version`
 
 If g++ and make are already installed, you should see something like the following:
+
 ![alt text](/screenshots/gppv.png)
 
 ![alt text](/screenshots/makev.png)
@@ -85,7 +86,7 @@ Once you have finished the installations, you should be able to verify that they
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/GeoObject-Cpp-Linux.git
+$ git clone https://github.com/MelissaData/GeoObject-Cpp-Linux
 $ cd GeoObject-Cpp-Linux
 ```
 

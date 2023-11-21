@@ -3,7 +3,7 @@
 CXX = g++
 CXXFLAGS = -Wall -Wextra -pedantic -std=c++11 -g
 LDLIBS = -lmdGeo
-LDFLAGS = -L/home/jessicasusilo/test/github/GeoObject-Cpp-Linux/MelissaGeoCoderObjectLinuxCpp/Build
+LDFLAGS = -L/home/emaiiii/MdLinuxExamples/GeoObject-Cpp-Linux/MelissaGeoCoderObjectLinuxCpp/Build
 RM = rm -f
 
 OUT_DIR = Build

@@ -34,7 +34,7 @@ For Canada:
 ## Tested Environments
 - Linux 64-bit g++ 9.4.0, Ubuntu 20.04.05 LTS
 - GNU Make 4.2.1
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 
 ## Required File(s) and Programs
 
@@ -88,8 +88,8 @@ Once you have finished the installations, you should be able to verify that they
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/GeoObject-Cpp-Linux
-$ cd GeoObject-Cpp-Linux
+git clone https://github.com/MelissaData/GeoObject-Cpp-Linux
+cd GeoObject-Cpp-Linux
 ```
 
 #### Set up Melissa Updater
@@ -148,25 +148,25 @@ When you have modified the script to match your data location, let's run the scr
 There are two modes:
 - Interactive
 
-	The script will prompt the user for a zip code, then use the provided zip to test GeoCoder Object. For example:
+  The script will prompt the user for a zip code, then use the provided zip to test GeoCoder Object. For example:
   ```
-  $ ./MelissaGeoCoderObjectLinuxCpp.sh
+  ./MelissaGeoCoderObjectLinuxCpp.sh
   ```
-	For quiet mode:
+  For quiet mode:
   ```
-  $ ./MelissaGeoCoderObjectLinuxCpp.sh --quiet
+  ./MelissaGeoCoderObjectLinuxCpp.sh --quiet
   ```
 - Command Line
 
   You can pass a zip code in the ```--zip``` parameter and a license string in ```--license``` parameter to test GeoCoder Object. For example:
   ```
-  $ ./MelissaGeoCoderObjectLinuxCpp.sh --zip "92688"
-  $ ./MelissaGeoCoderObjectLinuxCpp.sh --zip "92688" --license "<your_license_string>"
+  ./MelissaGeoCoderObjectLinuxCpp.sh --zip "92688"
+  ./MelissaGeoCoderObjectLinuxCpp.sh --zip "92688" --license "<your_license_string>"
   ```
   For quiet mode:
   ```
-  $ ./MelissaGeoCoderObjectLinuxCpp.sh --zip "92688" --quiet
-  $ ./MelissaGeoCoderObjectLinuxCpp.sh --zip "92688" --license "<your_license_string>" --quiet
+  ./MelissaGeoCoderObjectLinuxCpp.sh --zip "92688" --quiet
+  ./MelissaGeoCoderObjectLinuxCpp.sh --zip "92688" --license "<your_license_string>" --quiet
   ```
 This is the expected output from a successful setup for interactive mode:
 
